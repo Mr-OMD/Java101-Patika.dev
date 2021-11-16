@@ -18,14 +18,39 @@ public class Ring {
         if (checkWeight()) {
             while (f1.health > 0 && f2.health > 0) {
                 System.out.println("======== YENİ ROUND ===========");
-                f2.health = f1.hit(f2);
+                int coinFlip = (int) (Math.random() * 2);
+
+                if (coinFlip == 0) {
+                    System.out.println("İlk " + f1.name + " vuracak");
+                    f2.health = f1.hit(f2);
+                    if (isWin()) {
+                        break;
+                    }
+                    f1.health = f2.hit(f1);
+                    if (isWin()) {
+                        break;
+                    }
+                } else {
+                    System.out.println("İlk " + f2.name + " vuracak");
+                    f1.health = f2.hit(f1);
+                    if (isWin()) {
+                        break;
+                    }
+                    f2.health = f1.hit(f2);
+                    if (isWin()) {
+                        break;
+                    }
+                }
+
+
+                /*f2.health = f1.hit(f2);
                 if (isWin()) {
                     break;
                 }
                 f1.health = f2.hit(f1);
                 if (isWin()) {
                     break;
-                }
+                }*/
                 printScore();
             }
 
@@ -45,7 +70,7 @@ public class Ring {
             System.out.println("Maçı Kazanan : " + f2.name);
             return true;
         } else if (f2.health == 0) {
-            System.out.println("Maçı Kazanan : " + f2.name);
+            System.out.println("Maçı Kazanan : " + f1.name);
             return true;
         }
 
