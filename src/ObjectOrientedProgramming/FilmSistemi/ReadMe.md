@@ -16,4 +16,4 @@ Online film satan veya kiralayan uygulamanın sistemini tasarlayın.
 
 Bu sistemi tasvir eden Class(Sınıf) diyagramını çiziniz.
 
-![diyagramfilm]()
+![diyagramfilm](https://github.com/Mr-OMD/Java101-Patika.dev/blob/master/src/ObjectOrientedProgramming/FilmSistemi/diagramfilm.jpg?raw=true)
