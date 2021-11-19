@@ -13,4 +13,4 @@ Uçuşların ve pilotların yönetimi için bir sistem tasarlayın.
 
 Bu sistemi tasvir eden Class(Sınıf) diyagramını çiziniz.
 
-![ucusdiyagram]()
+![ucusdiyagram](https://github.com/Mr-OMD/Java101-Patika.dev/blob/master/src/ObjectOrientedProgramming/UcusYonetimi/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202021-11-19%20213321.png?raw=true)
