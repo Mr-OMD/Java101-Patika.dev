@@ -28,4 +28,4 @@ Simülatör, gerçek zaman geçişini simüle etmek ve simülasyonda meydana gel
 için bir "saat" kullanır. Simülatör tarafından yolcu oluşturmak ve her yolcu için kalkış ve varış katlarını belirlemek
 için rastgele bir sayı üreteci kullanılır.
 
-[diyagram]()
+![diyagram](https://github.com/Mr-OMD/Java101-Patika.dev/blob/master/src/ObjectOrientedProgramming/AsansorSistemi/diyagramAsansor.png?raw=true)
