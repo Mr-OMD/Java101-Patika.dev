@@ -10,4 +10,4 @@ Bu sistemi tasvir eden Class (Sınıf) diyagramını çiziniz.
 
 Not : Sınıflara ait nitelik ve davranışların belirtilmesine gerek yoktur.
 
-![Üniversite Yönetim Sistemi](https://github.com/Mr-OMD/Java101-Patika.dev/blob/master/src/ObjectOrientedProgramming/diyagram.png?raw=true)
+![Üniversite Yönetim Sistemi](https://github.com/Mr-OMD/Java101-Patika.dev/blob/master/src/ObjectOrientedProgramming/UniversiteYonetimSistemiUML/diyagram.png?raw=true)
