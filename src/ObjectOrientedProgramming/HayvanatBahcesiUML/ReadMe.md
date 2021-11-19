@@ -16,4 +16,4 @@
   algoritması farklı olup, kaplanlar için farklı olacaktır.
 - [x] Polimorfizm modelini kullanarak, yukarıda açıklanan durumu ele almak için bir sınıf diyagramı tasarlayın.
 
-![umldiagram]
+![umldiagram](https://github.com/Mr-OMD/Java101-Patika.dev/blob/master/src/ObjectOrientedProgramming/HayvanatBahcesiUML/142286110-b493b1ec-f4ec-4274-9061-17f51b816104.png?raw=true)
