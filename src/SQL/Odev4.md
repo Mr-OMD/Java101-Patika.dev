@@ -17,6 +17,7 @@ Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden ger�
 
 ### Cevaplar;
 
+```
 1. select distinct replacement_cost from film;
 
 2. select count (distinct replacement_cost) from film;
@@ -26,3 +27,4 @@ Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden ger�
 4. select count(*) from country where country ~~ '_____';
 
 5. select count(*) from city where city ilike '%r';
+```

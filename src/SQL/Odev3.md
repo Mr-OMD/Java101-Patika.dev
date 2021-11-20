@@ -18,6 +18,7 @@ Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden ger�
 
 ### Cevaplar:
 
+```
 1. select country from country where country ~~ 'A%a';
 
 2. select country from country where country ~~ '%_____%n';
@@ -25,3 +26,4 @@ Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden ger�
 3. select title from film where title ~~* '%t%t%t%t%';
 
 4. select * from film where title ~~ 'C%' and length>90 and rental_rate=2.99;
+```
